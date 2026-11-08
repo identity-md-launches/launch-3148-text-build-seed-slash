@@ -1,0 +1,9 @@
+# Explicit budget: dependency and cache paths only; production dist is deliverable.
+**/node_modules/
+**/.npm-cache/
+**/.vite/
+**/.cache/
+test/scratch/
+# The finished static export is part of delivery, including under global ignores.
+!dist/
+!dist/**
